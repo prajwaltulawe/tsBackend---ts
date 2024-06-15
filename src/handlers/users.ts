@@ -14,8 +14,7 @@ export function getUsersById(req: Request, res: Response) {
 export function createUser(
     req: Request <{}, {}, CreateUserDto, CreateUserQueryParams>, 
     res: Response<User>
-) {
-    
+){
     const userName = req.body.userName
     req.query.loginAfterCreate
     res.send({email: "email", name: "user", phNumber: 789})
