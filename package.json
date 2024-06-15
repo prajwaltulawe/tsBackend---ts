@@ -22,11 +22,13 @@
   },
   "homepage": "https://github.com/prajwaltulawe/tsBackend--ts#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
     "express": "^4.19.2",
     "express-session": "^1.18.0",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
+    "@types/cookie-parser": "^1.4.7",
     "@types/express": "^4.17.21",
     "@types/express-session": "^1.18.0",
     "@types/jest": "^29.5.12",

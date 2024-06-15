@@ -4,6 +4,9 @@ import { CreateUserQueryParams } from "../types/query-params";
 import { User } from "../types/response";
 
 export function getUsers(req: Request, res: Response) {
+    console.log(req.headers.cookie)
+    console.log(req.cookies)
+    console.log(req.signedCookies)
     res.send('users')
 }
 
